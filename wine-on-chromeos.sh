@@ -1,5 +1,9 @@
 #!/bin/bash
-sudo dpkg --add-architecture i386
+# If running i386 chromeos, then add the following line.
+# To see if you have 386 or x86 arch, do the following:
+# Chrome > Help > About
+# uname -a
+#sudo dpkg --add-architecture i386
 
 # Prepare temp directory
 sudo mkdir /root/.gnupg
