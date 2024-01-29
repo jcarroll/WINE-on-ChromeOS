@@ -12,7 +12,7 @@ sudo apt-get dist-upgrade
 ...and install WINE by issuing the following command:
 
 ```
-bash <(curl -sL https://raw.githubusercontent.com/cknermann/WINE-on-ChromeOS/main/wine-on-chromeos.sh)
+bash <(curl -sL https://raw.githubusercontent.com/jcarroll/WINE-on-ChromeOS/main/wine-on-chromeos.sh)
 ```
 
 Be sure to carefully monitor the free disk space of the Linux system and be ready to expand the partition, depending on which Windows applications you're going to install. Further consider that WINE will deploy not-working shortcuts in Chrome OS' launcher and you will have to manually repair them, as outlined [here](https://beebom.com/how-use-windows-10-apps-chromebook-using-wine/). You will find the shortcuts in /home/*\<username\>*/.local/share/applications/wine/Programs/:
